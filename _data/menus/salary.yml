@@ -1,0 +1,93 @@
+- name: File
+  url: '#'
+  children:
+  - name: Open
+    url: '#'
+    shortcut: 'Ctrl+O'
+  - name: Save
+    url : '#'
+    shortcut: 'Ctrl+S'
+  - name: Save As
+    url : '#'
+    shortcut: 'Ctrl+Shift+S'
+    divider: true
+  - name: Exit
+    url : '/login'
+    shortcut: 'Ctrl+X'
+
+- name: View
+  url: '#'
+    
+- name: Entry
+  url: '#'
+  children: 
+    - name: Employee Information
+      url: '/salary/employee-info.html'
+    - name: Salary Table
+      url: '#'
+      disabled: true
+    - name: Other Salary Table
+      url: '#'
+      disabled: true
+    - name: Parameter
+      url: '#'
+      disabled: true
+      divider: true
+    - name: Variation
+      url: '#'
+      disabled: true
+    - name: Loans
+      url: '#'
+      disabled: true
+    - name: Funds 
+      url: '#'
+      disabled: true
+    - name: Other Allowances
+      url: '#'
+      disabled: true
+      divider: true
+    - name: Free Pay Items
+      url: '#'
+      disabled: true
+      divider: true
+    - name: Import Trnsactions
+      url: '#'
+      disabled: true
+  
+
+- name: Payroll Activities
+  url: #
+  children:
+    - name: Career and Manpower
+      url: '#'
+      disabled: true
+    - name: Recruitment
+      url: '#'
+      disabled: true
+    - name: Training
+      url: '#'
+      disabled: true
+    - name: Salary Administration
+      url: '/salary/administration.html'
+    - name: Loan Administration
+      url: '#'
+      disabled: true
+    - name: Gratuity Administration
+      url: '#'
+      disabled: true
+      divider: true
+    - name: Personnel
+      url: '#'
+      disabled: true
+      divider: true
+    - name: Reports
+      url: '#'
+      disabled: true
+    - name: Graphs
+      url: '#'
+      disabled: true
+
+- name: Reports
+  url: '#'
+
+- name: Help

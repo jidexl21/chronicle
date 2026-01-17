@@ -1,0 +1,99 @@
+- name: File
+  url: '#'
+  children:
+  - name: Open
+    url: '#'
+    shortcut: 'Ctrl+O'
+  - name: Save
+    url : '#'
+    shortcut: 'Ctrl+S'
+  - name: Save As
+    url : '#'
+    shortcut: 'Ctrl+Shift+S'
+    divider: true
+  - name: Exit
+    url : '/login'
+    shortcut: 'Ctrl+X'
+    
+- name: Tools
+  url: '#'
+  children: 
+    - name: Letter Manager
+      url: '#'
+      disabled: true
+    - name: Query Manager
+      url: '#'
+      disabled: true
+    - name: System Manager
+      url: '#'
+      disabled: true
+    - name: Image Manager
+      url: '#'
+      disabled: true
+    - name: ID Card Manager
+      url: '#'
+      disabled: true
+    - name: Document Manager
+      url: '#'
+      disabled: true
+    - name: Policy Manager
+      url: '#'
+      disabled: true
+    - name: Time and Attendance Manager
+      url: '#'
+      disabled: true
+    - name: eMail Manager
+      url: '#'
+      disabled: true
+      divider: true
+    - name: Database backup
+      url: '#'
+      disabled: true
+  
+
+- name: Modules
+  url: #
+  children:
+    - name: Career and Manpower
+      url: '#'
+      disabled: true
+    - name: Recruitment
+      url: '#'
+      disabled: true
+    - name: Training
+      url: '#'
+      disabled: true
+    - name: Salary Administration
+      url: '/salary/administration.html'
+    - name: Loan Administration
+      url: '#'
+      disabled: true
+    - name: Gratuity Administration
+      url: '#'
+      disabled: true
+      divider: true
+    - name: Personnel
+      url: '#'
+      disabled: true
+      divider: true
+    - name: Reports
+      url: '#'
+      disabled: true
+    - name: Graphs
+      url: '#'
+      disabled: true
+- name: Periodic
+  url: '#'
+  children:
+  - name: Child One
+    url: '#'
+  - name: Child Two
+    url : / 
+
+- name: Security
+  url: 'training.html#'
+
+- name: Window
+  url: '#'
+
+- name: Help

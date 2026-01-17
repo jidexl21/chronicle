@@ -1,0 +1,22 @@
+<ul role="menubar" class="can-hover">
+{% for link in site.data.menus.top-nav %}
+                    <li  role="menuitem"  {% if link.children %} aria-haspopup="true" {% endif %}>
+                        <!-- <a href="{{ link.url }}"> -->
+                        {{ link.name }}
+                      <!-- </a> -->
+                        
+                         {% if link.children %}
+                      <ul role="menu">
+                         {% for childlink in link.children %}
+                          <li role="menuitem" class="{% if childlink.divider %} has-divider {% endif %}">
+                            <a href="{{ childlink.url }}" class=" {% if childlink.disabled %} disabled {% endif %}">
+                              {{ childlink.name }} <span> {{ childlink.shortcut }}</span>
+                            </a>
+                          </li>
+                         {% endfor %}
+                      </ul>
+                         {% endif %}
+
+                    </li>
+{% endfor %}
+</ul>

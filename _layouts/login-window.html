@@ -1,0 +1,12 @@
+---
+layout: wrapper
+---
+
+<div class="window" style="width: {{ page.width }}; margin: {{ page.margin }}">
+      <div class="title-bar">
+        <div class="title-bar-text">{{ page.title }}</div>
+      </div>
+      <div class="window-body">
+        {% include login-form.html %}
+      </div>
+</div>

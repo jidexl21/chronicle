@@ -1,0 +1,12 @@
+---
+layout: wrapper
+---
+{% if page.menu == "salary" %}
+  {% include salary-menu.html %}
+{% else %}
+    {% include top-menu.html %}
+{% endif %}
+
+<div style="margin:auto; width: 300px; ">
+<h3 style="text-align: center;">{{ content }}</h3>
+</div>

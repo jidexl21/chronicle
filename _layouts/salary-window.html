@@ -1,0 +1,13 @@
+---
+layout: landing
+---
+
+<div class="window" style="width: 95%; height: 100%;margin: auto;">
+      <div class="title-bar">
+        <div class="title-bar-text">{{ page.title }} - {{ page.agency.name}}</div>
+      </div>
+      <div class="window-body">
+        {% include {{ page.include }} %}
+      </div>
+</div>
+
