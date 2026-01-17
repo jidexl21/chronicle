@@ -9,7 +9,7 @@
                       <ul role="menu">
                          {% for childlink in link.children %}
                           <li role="menuitem" class="{% if childlink.divider %} has-divider {% endif %}">
-                            <a href="{{ childlink.url }}" class=" {% if childlink.disabled %} disabled {% endif %}">
+                            <a href="{{ site.baseurl}}{{ childlink.url }}" class=" {% if childlink.disabled %} disabled {% endif %}">
                               {{ childlink.name }} <span> {{ childlink.shortcut }}</span>
                             </a>
                           </li>
